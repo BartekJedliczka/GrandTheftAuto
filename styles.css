@@ -46,6 +46,9 @@ p {
 .list {
   margin-left: auto;
 }
+.navigation-list-item {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
 
 .navigation-list-item:not(:last-child) {
   margin-right: 24px;
@@ -76,4 +79,67 @@ p {
   background-image: url("./images/GTA6banner.jpg");
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.container-column {
+  flex-direction: column;
+}
+
+.container-games {
+  display: flex;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.games-text {
+  font-size: 48px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: bold;
+  color: aliceblue;
+}
+
+.games-list {
+  display: flex;
+  list-style-type: none;
+  margin-left: auto;
+}
+
+.games-list-btn {
+  font-size: 16px;
+  color: aliceblue;
+  background-color: #606060;
+  border-radius: 20px;
+  border-style: none;
+  padding-left: 18px;
+  padding-right: 18px;
+  height: 32px;
+}
+
+.games-list-item:not(:last-child) {
+  margin-right: 16px;
+}
+
+.container-foto {
+  padding-top: 40px;
+  margin: auto;
+}
+
+.games-foto {
+  border-radius: 17px;
+  text-align: center;
+}
+
+.games-foto-item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.games-btn {
+  display: block;
+  margin: auto;
+  background-color: orange;
+  height: 63px;
+  width: 260px;
+  border-style: none;
+  border-radius: 8px;
+  margin-top: 60px;
 }
