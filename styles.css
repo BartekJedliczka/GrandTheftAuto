@@ -265,3 +265,12 @@ p {
   height: 471px;
   margin-left: auto;
 }
+
+.footer {
+  background-color: black;
+  height: 238px;
+}
+
+.footer-logo {
+  border-radius: 10px;
+}
